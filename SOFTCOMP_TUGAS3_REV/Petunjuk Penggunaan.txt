@@ -1,0 +1,14 @@
+Cara menggunakan program ini adalah sebagai berikut.
+1. Jalankan prosesLearning.m untuk melakukan training
+	Parameter yang digunakan adalah:
+	- Banyaknya generasi				: 150
+	- Ukuran Populasi					: 250
+	- Jumlah Gen dalam Satu Kromosom	: 154
+	- Probabilitas Crossover			: 0.85
+	- Probabilitas Mutasi				: 0.0064
+	- Probabilitas Selection			: 0.5
+	- Ukuran Turnamen					: 8
+	- Jumlah Replikasi					: 2
+2. Lakukan train dan retrain sampai dihasilkan nilai akurasi yang diinginkan (paling besar)
+3. Jalankan testingJST.m untuk memprediksi label kelas pada data testing
+4. Hasil prediksi akan tersimpan pada file TestsetTugas3.xlsx
